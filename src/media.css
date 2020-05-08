@@ -1,0 +1,439 @@
+@media screen and (max-width: 1350px) {
+  .container {
+    padding: 0 20px;
+  }
+  .header-title-top,
+  .header-title-bottom,
+  .header-text {
+    padding-right: 0;
+  }
+  .formSection-leftSide {
+    padding-left: 20px;
+    width: auto;
+  }
+  .leftSide-emptyBlock {
+    flex-grow: 0.5;
+  }
+  .formSection-rightSide {
+    width: auto;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .container {
+    width: auto;
+  }
+  .header-title-bottom {
+    letter-spacing: 0;
+  }
+  .header-text {
+    margin-right: auto;
+  }
+  .header-rightSide {
+    margin-left: 40px;
+  }
+  .portfolio-foto-items {
+    width: 260px;
+    height: 260px;
+  }
+  .people-leftSide {
+    margin-right: 50px;
+  }
+  .mail-header-title {
+    letter-spacing: 0;
+  }
+  .leftSide-emptyBlock {
+    flex-grow: 0.3;
+  }
+  .formSection-leftSide {
+    margin-right: 50px;
+  }
+  .formSection-leftSide {
+    padding-left: 0px;
+  }
+  .footer-copyright {
+    margin-left: 50px;
+  }
+  .footer-icons:last-child {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .header {
+    margin-bottom: 80px;
+  }
+  .header-title-top,
+  .header-title-bottom {
+    font-size: 50px;
+  }
+  .section-left-aboutUs-title,
+  .section-left-aboutUs-text {
+    margin-right: 80px;
+  }
+  .section-right-aboutUs-text {
+    margin-bottom: 50px;
+  }
+  .portfolio-header-title,
+  .portfolio-nav-list {
+    margin-top: 50px;
+  }
+  .portfolio-foto-items {
+    width: 200px;
+    height: 200px;
+  }
+  .portfolio-nav-item:first-child {
+    margin-left: 80px;
+  }
+  .portfolio-nav-item:last-child {
+    margin-right: 50px;
+  }
+  .people-leftSide {
+    margin-right: 10px;
+  }
+  .people-rightSide-fotoBloks {
+    grid-column-gap: 10px;
+  }
+  .mail-header-title {
+    padding-top: 100px;
+  }
+  .mail-input {
+    padding: 23px;
+  }
+  .mail-submit {
+    padding: 23px 58px;
+  }
+  .portfolio {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .people-rightSide-block {
+    width: 170px;
+    height: 170px;
+  }
+  .mail-header-title {
+    font-size: 30px;
+    padding-top: 80px;
+  }
+  .mail-input,
+  .mail-submit {
+    margin-bottom: 100px;
+  }
+  .leftSide-emptyBlock {
+    flex-grow: 1;
+  }
+  .formSection-leftSide {
+    margin-right: 10px;
+  }
+  .formSection-leftSide-name {
+    margin-right: 15px;
+  }
+  .formSection-leftSide-email {
+    margin-left: 15px;
+  }
+  .formSection-leftSide-name,
+  .formSection-leftSide-email {
+    padding: 30px 40px;
+  }
+  .formSection-leftSide-name,
+  .formSection-leftSide-email,
+  .formSection-leftSide-textarea {
+    margin-bottom: 30px;
+  }
+  .formSection-leftSide-textarea {
+    height: 200px;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header {
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 50px;
+  }
+  .header-title-top,
+  .header-title-bottom {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+  .header-rightSide {
+    margin-bottom: 50px;
+  }
+  .section-left-aboutUs-title {
+    font-size: 32px;
+  }
+  .section-left-aboutUs-title,
+  .section-left-aboutUs-text {
+    margin-right: 10px;
+  }
+  .aboutUs {
+    grid-template-columns: 1.5fr 2fr;
+  }
+  .section-right-aboutUs-text {
+    margin-bottom: 30px;
+  }
+  .portfolio-nav-item {
+    font-size: 16px;
+  }
+  .portfolio-foto {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio-foto-items {
+    width: auto;
+    height: 290px;
+  }
+  .people-leftSide {
+    display: none;
+  }
+  .people-rightSide-block {
+    width: 150px;
+  }
+  .mail-header-title {
+    padding-top: 50px;
+  }
+  .mail-header-text {
+    margin-bottom: 45px;
+  }
+  .mail-input {
+    width: 320px;
+  }
+  .formSection-leftSide-name,
+  .formSection-leftSide-email {
+    padding: 30px 25px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-text {
+    margin-bottom: 38px;
+  }
+  .header-button {
+    margin-bottom: 50px;
+  }
+  .header-rightSide {
+    margin-left: 0;
+  }
+  .aboutUs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-left-aboutUs-button {
+    margin-bottom: 50px;
+  }
+  .people {
+    text-align: center;
+  }
+  .people-header {
+    justify-content: center;
+    text-align: center;
+  }
+  .people-header-line {
+    margin-left: auto;
+  }
+  .people-sides {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .people-rightSide-list {
+    justify-content: center;
+  }
+  .people-rightSide-fotoBloks {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .people-rightSide-block {
+    width: 100%;
+    height: 290px;
+  }
+  .mail-input,
+  .mail-submit {
+    padding: 23px 28px;
+    margin-bottom: 50px;
+  }
+  .formSection-header {
+    text-align: center;
+  }
+  .formSection-header-line {
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+  .formSection-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .bg-rightSide {
+    grid-template-columns: 1fr;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    background-color: #313030;
+  }
+  .formSection-rightSide-header {
+    margin: 30px auto;
+  }
+  .formSection-rightSide-text {
+    margin: 0 auto;
+  }
+  .rightSide-emprtyBlock {
+    display: none;
+  }
+  .formSection-rightSide {
+    max-width: 100%;
+    width: 100%;
+  }
+  .formSection-leftSide-submit {
+    margin-bottom: 50px;
+  }
+  .footer {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navigation-links {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .navigation-list{
+    padding-left: 0;
+  }
+  .navigation-list,.navigation-links,.active-links{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .navigation-list{
+    margin-bottom: 50px;
+  }
+  .portfolio-nav-item{
+      text-align: center;
+  }
+  .portfolio-nav-item:first-child {
+    margin-left: 50px;
+  }
+  .portfolio-nav-item:last-child {
+    margin-right: 50px;
+  }
+  .formSection-leftSide{
+      margin-right: 0;
+  }
+  
+}
+@media screen and (max-width: 400px) {
+  .navigation-links{
+    font-size: 10px;
+  }
+  .header-title-top,.header-title-bottom{
+    font-size: 30px;
+  }
+  .header-button{
+    font-size: 16px;
+    padding: 10px 63px;
+  }
+  .section-left-aboutUs-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .section-left-aboutUs-text{
+    margin-bottom: 20px;
+  }
+  .section-left-aboutUs-button{
+    font-size: 16px;
+    padding: 10px 59px;
+  }
+  .section-right-aboutUs{
+    grid-template-columns: 1fr;
+  }
+  .section-right-aboutUs-block{
+    margin-right: 0;
+  }
+  .section-right-aboutUs-block:last-child{
+    margin-bottom: 0;
+  }
+  .portfolio-nav-item:first-child {
+    margin-left: 0;
+  }
+  .portfolio-header-title,.people-header-title,.people-rightSide-title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .portfolio-nav-item{
+    font-size: 11px;
+  }
+  .portfolio-nav-item:last-child {
+    margin-right: 0;
+  }
+  .portfolio-foto {
+    grid-template-columns: 1fr;
+  }
+  .people-rightSide-fotoBloks {
+    grid-template-columns: 1fr;
+  }
+  .mail-header-title{
+    font-size: 20px;
+  }
+  .mail-header-text{
+    margin-top: 0;
+    font-size: 18px;
+  }
+  .mail-forSections{
+    flex-direction: column;
+  }
+  .mail-input,.mail-submit{
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .formSection-leftSide{
+    display: flex;
+    flex-direction: column;
+  }
+  .formSection-leftSide-name{
+    margin-right: 0;
+  }
+  .formSection-leftSide-email{
+    margin-left: 0;
+  }
+  .formSection-leftSide-name,.formSection-leftSide-email{
+    width: auto;
+    padding: 30px 10px;
+  }
+  .people-rightSide-text{
+    width: auto;
+    max-width: 300px;
+  }
+  .people-rightSide-item{
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .formSection-rightSide-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .footer{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-copyright{
+    padding-top: 20px;
+    margin-left: 0;
+    padding-bottom: 20px;
+  }
+  .footer-sociadmediad{
+    justify-content: center;
+  }
+  .footer-icons{
+    margin-bottom: 20px;
+  }
+  .footer-icons:first-child{
+    margin-left: 50px;
+  }
+}
